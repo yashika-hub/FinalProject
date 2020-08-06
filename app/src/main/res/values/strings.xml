@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">FinalProject</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -67,3 +68,41 @@
 
 
 </resources>
+
+    <string name="Choose">Choose any of the following: </string>
+    <string name="GeoDataSource">Geo Data Source </string>
+    <string name="SoccerMatchHighlights">Soccer Match Highlights </string>
+    <string name="SongLyricsSearch">Song Lyrics Search </string>
+    <string name="DeezerSongSearch">Deezer Song Search </string>
+
+    <string name="dMainPageEditText">Enter artist name </string>
+    <string name="dMainPageButtonSrch">Search Songs </string>
+    <string name="dMainPageButtonFav">Favourite Songs </string>
+
+    <string name="dSearchPageButtonBack">Go Back </string>
+
+    <string name="dFavouritePageButtonBack">Go Back </string>
+
+    <string name="dDetailsPageTextView1">Title: </string>
+    <string name="dDetailsPageTextView2">Duration: </string>
+    <string name="dDetailsPageTextView3">Album Name: </string>
+    <string name="dDetailsPageButtonFav">Add to Favourite </string>
+    <string name="dDetailsPageButtonBack">Go Back </string>
+
+    <string name="dNavigationBarOpen">Open</string>
+    <string name="dNavigationBarClose">Close</string>
+
+    <string name="dHeaderTitle">Deezer Song Search</string>
+    <string name="dHeaderVersion">Version 1.0</string>
+    <string name="dHeaderName">Yashika</string>
+
+    <string name="dInstructions">Instructions</string>
+    <string name="dInstructionsDetails">"In the Dezzer song search, you can enter the name of the artist
+        and click on search to get a list of songs. Further clicking on the songs you can see details for that
+        song. Also you can add the song to the Favourites to see them later."</string>
+    <string name="dHeaderLayoutName">Yashika</string>
+    <string name="dDonationQues">How much money do you want to donate?"</string>string>
+
+
+</resources>
+

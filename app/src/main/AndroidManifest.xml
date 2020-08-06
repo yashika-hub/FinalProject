@@ -12,12 +12,21 @@
         android:supportsRtl="true"
 
         android:theme="@style/AppTheme">
+
         <activity android:name=".SoccerEmptyActivity"></activity>
         <activity android:name=".SoccerDetailPage" />
         <activity android:name=".SoccerSearchPage" />
         <activity android:name=".SoccerFavouritePage" />
         <activity android:name=".SoccerMainPage" />
+
+        <activity android:name=".DeezerEmptyActivity"></activity>
+        <activity android:name=".DeezerSearchPage"></activity>
+        <activity android:name=".DeezerMainPage" />
+        <activity android:name=".DeezerDetailsPage" />
+        <activity android:name=".DeezerFavouritePage" />
+
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

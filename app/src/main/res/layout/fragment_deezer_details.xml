@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dDetailsPageTextView1Frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Title: "
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/dDetailsPageTextView2Frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dDetailsPageTextView1Frag"
+        android:text="Duration: "
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/dDetailsPageTextView3Frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dDetailsPageTextView2Frag"
+        android:text="Album Name: "
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/dDetailsPageImageViewFrag"
+        android:layout_below="@id/dDetailsPageTextView3Frag"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/dDetailsPageButtonFavFrag"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Add to Favourite"/>
+
+    <Button
+        android:id="@+id/dDetailsPageButtonBackFrag"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Go Back"/>
+
+</RelativeLayout>

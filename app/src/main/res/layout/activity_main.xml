@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -32,3 +33,49 @@
     android:text="@string/ButtonText4" />
 
 </LinearLayout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/Choose"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/ToGeoDataSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/Choose"
+        android:text="@string/GeoDataSource" />
+
+
+    <Button
+        android:id="@+id/ToSoccerMatchHighlights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ToGeoDataSource"
+        android:text="@string/SoccerMatchHighlights" />
+
+    <Button
+        android:id="@+id/ToSongLyricsSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ToSoccerMatchHighlights"
+        android:text="@string/SongLyricsSearch" />
+
+    <Button
+        android:id="@+id/ToDeezerSongSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ToSongLyricsSearch"
+        android:text="@string/DeezerSongSearch" />
+
+</RelativeLayout>
+
