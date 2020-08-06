@@ -1,81 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    >
 
-    <Button
-    android:id="@+id/button"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/ButtonText" />
-
-    <Button
-    android:id="@+id/ToSoccerMainPageButton"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/ToSoccerMainPageButtonText" />
-
-    <Button
-    android:id="@+id/button2"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/ButtonText3" />
-
-    <Button
-    android:id="@+id/button3"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/ButtonText4" />
-
-</LinearLayout>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/Choose"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/home_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:text="@string/Choose"
-        android:textSize="25dp"/>
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/ToGeoDataSource"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_below="@id/Choose"
-        android:text="@string/GeoDataSource" />
+    <androidx.drawerlayout.widget.DrawerLayout
 
+        android:id="@+id/home_drawer_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_toolbar"
+        tools:context=".MainActivity"
+        tools:openDrawer="start">
 
-    <Button
-        android:id="@+id/ToSoccerMatchHighlights"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ToGeoDataSource"
-        android:text="@string/SoccerMatchHighlights" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/ToSongLyricsSearch"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ToSoccerMatchHighlights"
-        android:text="@string/SongLyricsSearch" />
+            <Button
+                android:id="@+id/geoDataBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="goToGeo"
+                android:text="GEO DATA"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/ToDeezerSongSearch"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ToSongLyricsSearch"
-        android:text="@string/DeezerSongSearch" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-</RelativeLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:fitsSystemWindows="true"
+            app:layout_constraintVertical_bias="0.0"
+            app:menu="@menu/home_drawer_menu" />
+    </androidx.drawerlayout.widget.DrawerLayout>
 
+</androidx.constraintlayout.widget.ConstraintLayout>
