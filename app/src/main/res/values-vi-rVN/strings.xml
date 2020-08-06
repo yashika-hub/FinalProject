@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="app_name">Tìm kiếm lời bài hát</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="title">Tên bài hát</string>
+    <string name="artist">Ca sĩ</string>
+    <string name="proyecto3">Ứng dụng 1: GEO </string>
+    <string name="proyecto4">Ứng dụng 2: Điểm sáng</string>
+    <string name="proyecto2">Ứng dụng 4: Deezer </string>
+    <string name="proyecto1">Ứng dụng 3: Tìm lời bài hát</string>
+    <string name="error_empty">Nhập tên</string>
+    <string name="title_activity_lyrics">Lời bài hát</string>
+    <string name="error_service">Lỗi kết nối</string>
+    <string name="mis_letras">Lời bài hát yêu thích</string>
+    <string name="title_letras">Lời bài hát</string>
+    <string name="delete">Xóa</string>
+    <string name="success">Lưu thành công</string>
+    <string name="question">Có muốn xóa không?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+
+    <string name="info">Thông tin về ứng dụng</string>
+    <string name="title_activity_series">Series</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_misletras_list">Lyrics</string>
+    <string name="title_misletras_detail">My list detail</string>
+    <string name="title_activity_letra">Lyric</string>
+    <string name="error_short_name">Không hợp lệ</string>
+    <string name="help">Trợ giúp</string>
+</resources>
