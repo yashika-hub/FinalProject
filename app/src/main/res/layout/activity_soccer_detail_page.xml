@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/sDetailPageTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:gravity="center"
+        android:text="@string/sDetailPageTitleText"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/sDetailPageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sDetailPageTitleText"
+        android:text="@string/sDetailPageTitle"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/sDetailPageDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sDetailPageTitle"
+        android:text="@string/sDetailPageDate"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/sDetailPageURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sDetailPageDate"
+        android:text="@string/sDetailPageURL"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/sDetailPageMatchHighlights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sDetailPageFavButton"
+        android:text="@string/sDetailPageMatchHighlightsButton" />
+
+    <Button
+        android:id="@+id/sDetailPageFavButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sDetailPageBackButton"
+        android:text="@string/sDetailPageFavButton" />
+
+    <Button
+        android:id="@+id/sDetailPageBackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/sDetailPageBackButton" />
+
+</RelativeLayout>
