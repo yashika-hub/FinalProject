@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dHeaderLayoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deezer Song Search"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:id="@+id/dHeaderLayoutVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:layout_alignParentBottom="true" />
+    <TextView
+        android:id="@+id/dHeaderLayoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yashika"
+        android:layout_alignParentBottom="true" />
+</LinearLayout>

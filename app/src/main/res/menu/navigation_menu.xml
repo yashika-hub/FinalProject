@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/itemInstructions"
+        android:title="Instructions for this app"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemAboutAPI"
+        android:title="About the API"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemDonate"
+        android:title="Donate to project"
+        app:showAsAction="always" />
+
+
+</menu>
