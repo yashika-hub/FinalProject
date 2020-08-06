@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ButtonText">SOURCE DE DONNÉES GEO</string>
+    <string name="ToSoccerMainPageButtonText">PAGE DE SOCCER</string>
+    <string name="ButtonText3">PAROLES DE CHANSONS</string>
+    <string name="ButtonText4">CHANSON DEEZER</string>
+
+    //These Strings are found in MainPage:
+    <string name="sMainPageHint">Rechercher les faits saillants du football</string>
+    <string name="sMainPageSearchButtonText">CHERCHER</string>
+    <string name="sMainPageFavButtonText">MATCH PRÉFÉRÉ</string>
+
+    <string name="sNavigationOpen">Ouverte</string>
+    <string name="sNavigationClose">Fermer</string>
+
+    <string name="sAppInstructions">Instructions pour l\'application</string>
+    <string name="sAppDetailsInstructions">Cette application montre les faits saillants du match de football.
+    Ici, vous pouvez rechercher toutes les équipes qui ont joué aux matchs et regarder ses moments forts.
+    En plus des extraits vidéo, l\'application vous permet également d\'enregistrer vos matchs préférés et de les revoir plus tard. </string>
+    <string name="sPositiveButton">D\'accord</string>
+
+    <string name="sDonation">Combien d\'argent voulez-vous donner?</string>
+    <string name="sTitle">Merci de donner généreusement</string>
+    <string name="sPositive">Je vous remercie</string>
+    <string name="sNegative">Annuler</string>
+
+    <string name="sReturn">Terminé</string>
+    <string name="sComment">Cette activité est SoccerMatch Highlights, écrite par Shipa</string>
+
+    //These Strings are found in FavouritePage:
+    <string name ="sFavPageToastMsg">Supprimé de la liste des favoris</string>
+    <string name ="sFavPageToastMsg2">Rien n\'a changé</string>
+
+    <string name="sFavPageButtonText">ARRIÈRE</string>
+    <string name="sFavPageTitleText">Matchs préférés</string>
+
+    <string name="sFavPageQuestion">Voulez-vous supprimer cela de la liste des favoris?</string>
+    <string name="sFavPagePositive">Oui</string>
+    <string name="sFavPageNegative">Non</string>
+
+    //These Strings are found in SearchPage:
+    <string name="sSearchPageButtonText">ARRIÈRE</string>
+    <string name="sSearchPageTitleText">Résultats de recherche</string>
+
+    <string name="sSearchPageSnackBarMsg">Aucun match de football trouvé avec le mot clé</string>
+
+    //These Strings are found in DetailPage:
+    <string name="sDetailPageTitleText">Détails du match</string>
+    <string name="sDetailPageTitle">Deux équipes qui jouent:</string>
+    <string name="sDetailPageDate">La date d\'aujourd\'hui:</string>
+    <string name="sDetailPageURL">URL:</string>
+
+    <string name="sDetailPageRemove">SUPPRIMER DES FAVORIS</string>
+    <string name="sDetailPageToastMsg">Supprimé de la liste des favoris</string>
+
+    <string name="sDetailPageFavButton">AJOUTER AUX FAVORIS</string>
+    <string name="sDetailPageToastMsg2">Ajouté à la liste des favoris</string>
+
+    <string name="sDetailPageMatchHighlightsButton">Faits Saillants du Match</string>
+    <string name="sDetailPageBackButton">ARRIÈRE</string>
+
+
+
+
+</resources>

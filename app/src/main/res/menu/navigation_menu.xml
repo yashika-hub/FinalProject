@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemInstructions"
+        android:title="Instructions"
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -6,6 +15,7 @@
     <item
         android:id="@+id/itemInstructions"
         android:title="Instructions for this app"
+
         app:showAsAction="always" />
     <item
         android:id="@+id/itemAboutAPI"
@@ -13,6 +23,10 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/itemDonate"
+
+        android:title="Donate to Project"
+        app:showAsAction="always" />
+
         android:title="Donate to project"
         app:showAsAction="always" />
 

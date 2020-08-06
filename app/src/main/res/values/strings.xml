@@ -3,6 +3,72 @@
     <string name="app_name">FinalProject</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="ButtonText">GEO DATA SOURCE</string>
+    <string name="ToSoccerMainPageButtonText">SOCCER PAGE</string>
+    <string name="ButtonText3">SONG LYRICS</string>
+    <string name="ButtonText4">DEEZER SONG</string>
+
+
+    //These Strings are found in MainPage:
+    <string name="sMainPageHint">Search Soccer Highlights</string>
+    <string name="sMainPageSearchButtonText">SEARCH</string>
+    <string name="sMainPageFavButtonText">FAVOURITE MATCH</string>
+
+    <string name="sNavigationOpen">Open</string>
+    <string name="sNavigationClose">Close</string>
+
+    <string name="sAppInstructions">Instructions for the App</string>
+    <string name="sAppDetailsInstructions">This app shows the Soccer Match Highlights.
+    Here, you can search for any teams that have played the games and watch it\'s highlights.
+    Plus, the app also lets you save your favourite matches and re-watch it later. </string>
+    <string name="sPositiveButton">Ok</string>
+
+    <string name="sDonation">How much money do you want to donate?</string>
+    <string name="sTitle">Please give generou$ly</string>
+    <string name="sPositive">Thank you</string>
+    <string name="sNegative">Cancel</string>
+
+    <string name="sReturn">Done</string>
+    <string name="sComment">This activity is SoccerMatch Highlights, written by Shipa</string>
+
+
+    //These Strings are found in FavouritePage:
+    <string name ="sFavPageToastMsg">Removed from favourite list</string>
+    <string name ="sFavPageToastMsg2">Nothing Changed</string>
+
+    <string name="sFavPageButtonText">BACK</string>
+    <string name="sFavPageTitleText">Favourite Matches</string>
+
+    <string name="sFavPageQuestion">Do you want to remove this from favourite list?</string>
+    <string name="sFavPagePositive">Yes</string>
+    <string name="sFavPageNegative">No</string>
+
+
+    //These Strings are found in SearchPage:
+    <string name="sSearchPageButtonText">BACK</string>
+    <string name="sSearchPageTitleText">Search Results</string>
+
+    <string name="sSearchPageSnackBarMsg"> No soccer match found with the keyword</string>
+
+
+    //These Strings are found in DetailPage:
+    <string name="sDetailPageTitleText">Details of the Match</string>
+    <string name="sDetailPageTitle">Two Teams that are Playing:</string>
+    <string name="sDetailPageDate">Today\'s Date:</string>
+    <string name="sDetailPageURL">URL:</string>
+
+    <string name="sDetailPageRemove">REMOVE FROM FAVOURITE</string>
+    <string name="sDetailPageToastMsg">Removed from favourite list</string>
+
+    <string name="sDetailPageFavButton">ADD TO FAVOURITE</string>
+    <string name="sDetailPageToastMsg2">Added to favourite list</string>
+
+    <string name="sDetailPageMatchHighlightsButton">Match Highlights</string>
+    <string name="sDetailPageBackButton">BACK</string>
+
+
+</resources>
+
     <string name="Choose">Choose any of the following: </string>
     <string name="GeoDataSource">Geo Data Source </string>
     <string name="SoccerMatchHighlights">Soccer Match Highlights </string>
@@ -39,3 +105,4 @@
 
 
 </resources>
+

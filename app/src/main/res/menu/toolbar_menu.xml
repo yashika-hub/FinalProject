@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/GeoData"
+        android:icon="@drawable/geo_data"
+        android:title="GeoData"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/SongLyrics"
+        android:icon="@drawable/song_lyrics"
+        android:title="SongLyrics"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/DeezerSong"
+        android:icon="@drawable/deezer_song"
+        android:title="Songs"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/MyProject"
+        android:title="Soccer Highlights"
+        app:showAsAction="never" />
+
+</menu>
