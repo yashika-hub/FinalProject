@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tbABout"
+        android:title="Inst"
+        android:icon="@drawable/ic_infor"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tbSaved"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Saved"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tbDonate"
+        android:icon="@drawable/donate"
+        android:title="Donate"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/APItn"
+        android:icon="@drawable/ic_api"
+        android:title="Donate"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/tbInstruction"
+        android:title="Ins"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_api"
+        />
+
+</menu>
