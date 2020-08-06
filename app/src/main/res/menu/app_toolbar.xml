@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:title="Instruction"
+        android:id="@+id/instruction_toolbar"
+        android:icon="@drawable/ic_instruc_1"
+        android:orderInCategory="100"
+
+        app:showAsAction="ifRoom"/>  <!-- This uses showAsAction=always, so look at icon= parameter -->
+
+    <item
+        android:title="API"
+        android:id="@+id/API_toolbar"
+        android:icon="@drawable/ic_instruc"
+        app:showAsAction="always"
+        android:orderInCategory="400"/>
+
+    <item
+        android:title="Donate"
+        android:id="@+id/donate_toolbar"
+        android:icon="@drawable/ic_donate_new"
+        app:showAsAction="always"
+        android:orderInCategory="400"/> <!-- This uses showAsAction=never, so look at title= parameter -->
+
+
+
+</menu>
