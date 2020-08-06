@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/itemGeo"
+        android:icon="@drawable/geo"
+        android:title="Geo location"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemSoccer"
+        android:icon="@drawable/soccer"
+        android:title="Geo location"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemLyrics"
+        android:icon="@drawable/lyrics"
+        android:title="Geo location"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemAboutTheProject"
+        android:title="About the project"
+        app:showAsAction="never" />
+
+</menu>

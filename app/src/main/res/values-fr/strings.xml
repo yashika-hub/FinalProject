@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalProject</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Choose">Choisissez l\'un des éléments suivants: </string>
+    <string name="GeoDataSource">Source de données géographiques </string>
+    <string name="SoccerMatchHighlights">Point culminant du match de football </string>
+    <string name="SongLyricsSearch">Recherche de paroles de chansons </string>
+    <string name="DeezerSongSearch">Recherche de morceaux Deezer </string>
+
+    <string name="dMainPageEditText">Entrez le nom de l\'artiste </string>
+    <string name="dMainPageButtonSrch">Rechercher des chansons </string>
+    <string name="dMainPageButtonFav">Chansons préférées </string>
+
+    <string name="dSearchPageButtonBack">Retourner </string>
+
+    <string name="dFavouritePageButtonBack">Retourner </string>
+
+    <string name="dDetailsPageTextView1">Titre: </string>
+    <string name="dDetailsPageTextView2">Durée: </string>
+    <string name="dDetailsPageTextView3">Nom de l\'album: </string>
+    <string name="dDetailsPageButtonFav">Ajouter aux favoris </string>
+    <string name="dDetailsPageButtonBack">Retourner </string>
+
+    <string name="dNavigationBarOpen">Ouverte</string>
+    <string name="dNavigationBarClose">Fermer</string>
+
+    <string name="dHeaderTitle">Deezer Recherche de musique</string>
+    <string name="dHeaderVersion">Version 1.0</string>
+    <string name="dHeaderName">Yashika</string>
+
+    <string name="dInstructions">Instructions</string>
+    <string name="dInstructionsDetails">"Dans la recherche de chanson Dezzer, vous pouvez entrer le nom de l'artiste
+        et cliquez sur Rechercher pour obtenir une liste de chansons. En cliquant davantage sur les chansons, vous pouvez voir les détails pour cela
+        chanson. Vous pouvez également ajouter la chanson aux Favoris pour les voir plus tard."</string>
+    <string name="dHeaderLayoutName">Yashika</string>
+    <string name="dDonationQues">"Combien d'argent voulez-vous donner?"</string>string>
+</resources>
